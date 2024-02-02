@@ -1,0 +1,2 @@
+docker exec -it my-python-app /bin/sh
+docker run -it richardgou/tp:latest /bin/sh
