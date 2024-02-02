@@ -1,0 +1,2 @@
+docker run -p 8080:5000 -e CURRENT_ENVIRONMENT=development my-python-app
+docker run -p 80:80 -e WS_BACK_URL=http://back-container:5000 --name my-python-app -d your-docker-username/front-app
